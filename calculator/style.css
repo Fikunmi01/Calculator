@@ -1,0 +1,79 @@
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border-radius: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  border-radius: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2{
+    padding-bottom: 10%;
+}
+
+.formstyle {
+    background-image: linear-gradient(to right,#2196F3,rgba(0,0,0,0.4));
+    border-radius: 3px;
+    padding: 30px;
+    position: relative;
+    width: 30%;
+    margin: auto;
+    margin-top: 6rem;
+
+
+  }
+
+  input {
+    background-color: #fff;
+    border: none;
+    width: 9.6rem;
+    height: 6rem;
+    border-radius: 7px;
+  }
+  
+  #calc {
+    width: 97%;
+    height: 50px;
+  }
+
+  
+  #clear {
+    margin-top: 3%;
+    width: 99%;
+    background-color: red;
+    color: white;
+  }
+
+  @media screen and (max-width:800px) {
+    .formstyle {
+        width: 80%;
+        height: 40rem;
+    }
+    input{
+        width: 24%;
+    }
+  }
+
+  @media screen and (min-width:800.01px) {
+    .formstyle{
+        width: 40%;
+    }
+    input{
+        width: 24%;
+    }
+  }
